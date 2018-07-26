@@ -34,10 +34,46 @@ li {
   padding: 0 10px;
 }
 
+h1 {
+  padding-bottom: 10px;
+}
+
 .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.container {
+  border: 1px solid orange;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.column {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.article {
+  border: 1px solid yellow;
+  margin: 10px 0;
 }
 
 #title {
